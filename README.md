@@ -1,5 +1,8 @@
 # 面向对象与设计模式课程大作业
 
+这里是关于本项目的一些简要说明以及Git的使用方法，关于项目开发的其它内容，请参考本仓库的Wiki。
+
+
 ## Git 使用方式
 
 Git是一个版本控制系统，在合作开发的过程中，每个参与开发的人都需要将仓库中的内容Clone到本地进行开发，随后Commit代码。
@@ -43,4 +46,24 @@ git push origin --delete name_dev # 删除远程的临时分支
 ```
 
 如果不熟悉Git，非常推荐使用[Github Desktop](https://github.com/apps/desktop)。这是一个图形化的界面，可以方便的进行上述需要使用命令进行的操作。
+下文主要围绕Github Desktop的使用方式展开
 
+在完成Github Desktop的安装后，请登录你的Github账号，随后点击File->Clone Repository，
+选择Nanji-Huaji/Object-oriented-and-Design-Patterns-Course-Project，点击Clone，即可将仓库Clone到本地，如图所示：
+
+![Clone Repository](figure/clone-repository.png)
+
+![Clone Repository](figure/Clone-repository-1.png)
+
+在添加完项目后，可以在Github Desktop中通过vscode或者其它你所喜欢的编辑器/IDE打开项目，这样就可以正常的编辑项目了。
+
+如果你完成了一部分工作，准备commit你的代码，可以直接在Github Desktop中点击Commit to main（如果你没有另开新分枝），随后点击Push to Origin。
+
+这样，我们就了解了Github Desktop的基础用法。
+
+## 补充说明：什么是分枝？
+
+分枝（Branch）是为了在不影响主分枝的前提下独立开发新功能或修复错误而做的，它允许你在不受他人打扰的情况下独自开发某个功能。在完成这个功能的开发后，
+可以对分枝进行融合（Merge），如果在融合的两个分枝中，没有同时编辑的文件，那么分枝可以顺利融合。否则就需要对冲突的文件进行修改。
+
+![Branch](figure/branch.png)
