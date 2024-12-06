@@ -40,6 +40,7 @@ git push origin main # 将本地 main 分支推送到远程
 
 git branch -d name_dev # 删除本地的临时分支
 git push origin --delete name_dev # 删除远程的临时分支
+```
 
 如果不熟悉Git，非常推荐使用[Github Desktop](https://github.com/apps/desktop)。这是一个图形化的界面，可以方便的进行上述需要使用命令进行的操作。
 
