@@ -1,6 +1,6 @@
 # 面向对象与设计模式课程大作业
 
-这里是关于本项目的一些简要说明以及Git的使用方法，关于项目开发的其它内容，请参考本仓库的(Wiki)[https://github.com/Nanji-Huaji/Object-oriented-and-Design-Patterns-Course-Project/wiki/Home]。
+这里是关于本项目的一些简要说明以及Git的使用方法，关于项目开发的其它内容，请参考本仓库的[Wiki](https://github.com/Nanji-Huaji/Object-oriented-and-Design-Patterns-Course-Project/wiki/Home)。
 
 
 ## Git 使用方式
